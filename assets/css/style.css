@@ -13,16 +13,15 @@ body{
   height:100%;
   min-width: 100%;
   min-height: 100%;
-  background-color: lightblue;
+  background-color: #ffffff;
   text-align: center;
-  color: lightgreen;
 
 }
 
 header{
   background-color: #f2f2f2;
   margin-bottom: 10px;
-  border-bottom: solid #A9A9A9;
+  border-bottom: solid #cccccc;
   border-width: 3px;
   padding:60px;
   padding-right:200px;
@@ -31,7 +30,7 @@ header{
 }
 .name{
 	float:left;
-	background-color: #52c7a0;
+	background-color: #4aaaa5;
 	color:white;
 	font-size: 40px;
 	margin-top: -20px;
@@ -45,14 +44,15 @@ header{
 	float:right;
 	padding:10px;
 	font-size: 20px;
-	border-right: solid #A9A9A9;
+	border-right: solid #dddddd;
 	color:#808080;
+
 }
 .portfolio{
 	float:right;
 	padding:10px;
 	font-size: 20px;
-	border-right: solid #A9A9A9;
+	border-right: solid #dddddd;
 	color:#808080;
 }
 .contact{
@@ -64,6 +64,7 @@ header{
 
 
 section{
+  border: solid #dddddd;
   color:green;	
   float:left;
   background-color: #f2f2f2;
@@ -76,10 +77,11 @@ section{
 	font-size: 2em;
 	padding:20px;
 	text-align: left;
-	border-bottom: solid #A9A9A9;
+	border-bottom: solid #dddddd;
   	border-width: 3px;
   	margin-left: 20px;
   	margin-right: 20px;
+  	color:#4aaaa5;
 }
 .image{
 	margin:20px;
@@ -88,9 +90,10 @@ section{
 .paragraph{
 	margin:20px;
 	font-size:1.5em;
-	color:#808080;
+	color:#777777;
 }
 aside{
+  border: solid #dddddd;
   color:green;
   float:right;
   background-color: #f2f2f2;
@@ -104,10 +107,11 @@ aside{
 	font-size: 1.8em;
 	padding:20px;
 	text-align: middle;
-	border-bottom: solid #A9A9A9;
+	border-bottom: solid #dddddd;
   	border-width: 3px;
   	margin-left: 20px;
   	margin-right: 20px;
+  	color:#4aaaa5;
 
  }
  .connectwithmeicons{
@@ -122,7 +126,9 @@ aside{
   background-color: #808080;
   padding:40px;
   border-top:solid #52c7a0;
-  border-width: 6px;
+  border-width: 8px;
+  font-size: 1em;
+  color:white;
 }
 
 
