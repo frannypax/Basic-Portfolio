@@ -45,29 +45,30 @@ header{
 }
 .about{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 
 }
 .portfolio{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 }
 .contact{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	color:#808080;
 }
 
 
 section{
   border: solid #dddddd;
+  border-width: 1px;
   color:green;	
   float:left;
   background-color: white;
@@ -98,6 +99,7 @@ section{
 }
 aside{
   border: solid #dddddd;
+  border-width: 1px;
   color:green;
   float:right;
   background-color: white;
@@ -125,11 +127,13 @@ aside{
 
 .clear{
   position:absolute;
-  bottom: 0px;
-  width:94.8%;
+  bottom: 0;
+  left:0;
+  right:0;
+  width:96%;
   clear:both;
   background-color: #666666;
-  padding:40px;
+  padding:30px;
   border-top:solid #52c7a0;
   border-width: 8px;
   font-size: 1em;
