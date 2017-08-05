@@ -6,11 +6,15 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
 
 */
+html{
+  height:100%;
+}
 
 body{
+  position:relative;
   margin:0 auto;
+  padding-bottom: 84px;
   width:960px;
-  height:100%;
   min-width: 100%;
   min-height: 100%;
   text-align: center;
@@ -45,66 +49,92 @@ header{
 }
 .about{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 
 }
 .portfolio{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 }
 .contact{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	color:#808080;
 }
 
 
 section{
   border: solid #dddddd;
+  border-width: 1px;
   color:green;	
   float:left;
   background-color: white;
   width:650px;
   padding:5px;
   margin-bottom: 20px;
-  margin-top:40px;
+  margin-top:30px;
   margin-left: 200px;
+
 }
-.aboutme{
+.contact_section{
 	font-size: 2em;
 	padding:20px;
+  padding-left:0px;
 	text-align: left;
-	border-bottom: solid #dddddd;
   border-width: 3px;
   margin-left: 20px;
   margin-right: 20px;
   color:#4aaaa5;
+  border-bottom: solid #dddddd;
+  border-width: 3px;
 }
-.image{
+
+.contactdetails{
 	margin:20px;
-	float:left;
+  text-align: left;
+  color:#4aaaa5;
 }
-.paragraph{
-	margin:20px;
-	font-size:1.5em;
-	color:#777777;
+
+p{
+  margin-top:10px;
+  margin-bottom:10px;
+  padding:10px;
+  border:solid #dddddd;
+  border-width: 1px;
+	font-size:1.2em;
+	color:#dddddd;
+}
+.message{
+  height:180px;
+}
+button{
+  float:left;
+  width:150px;
+  margin:20px;
+  margin-bottom:10px;
+  margin-top:0px;
+  padding:10px;
+  color:white;
+  background-color: #4aaaa5;
+
 }
 aside{
   border: solid #dddddd;
+  border-width: 1px;
   color:green;
   float:right;
   background-color: white;
   width:270px;
   height:200px;
   margin-right: 300px;
-  margin-top:40px;
+  margin-top:30px;
   
 
 }
@@ -125,11 +155,13 @@ aside{
 
 .clear{
   position:absolute;
-  bottom: 0px;
-  width:94.8%;
+  bottom: 0;
+  left:0;
+  right:0;
+  width:96%;
   clear:both;
   background-color: #666666;
-  padding:40px;
+  padding:30px;
   border-top:solid #52c7a0;
   border-width: 8px;
   font-size: 1em;

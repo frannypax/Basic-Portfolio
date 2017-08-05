@@ -6,11 +6,15 @@ Flip between this CSS file and the HTML to see how things line up.
 Experiment with deleting lines of code from the CSS to see how it affects the webpage when you refresh in the browser.
 
 */
+html{
+  height:100%;
+}
 
 body{
+  position:relative;
   margin:0 auto;
+  padding-bottom: 84px;
   width:960px;
-  height:100%;
   min-width: 100%;
   min-height: 100%;
   text-align: center;
@@ -25,6 +29,8 @@ header{
   padding:60px;
   padding-right:200px;
   padding-top:30px;
+  font-family: Times,Georgia, serif;
+  font-weight: bold;
  
 }
 .rightheader{
@@ -45,66 +51,116 @@ header{
 }
 .about{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 
 }
 .portfolio{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	border-right: solid #dddddd;
 	color:#808080;
 }
 .contact{
 	float:right;
-	padding:10px;
-	font-size: 1.5em;
+	padding:5px;
+	font-size: 1.2em;
 	color:#808080;
 }
 
-
 section{
+  width:650px;
   border: solid #dddddd;
-  color:green;	
+  border-width: 1px;
+  margin-top: 30px;
+  margin-left: 200px;
   float:left;
   background-color: white;
-  width:650px;
-  padding:5px;
-  margin-bottom: 20px;
-  margin-top:40px;
-  margin-left: 200px;
+  
 }
-.aboutme{
-	font-size: 2em;
-	padding:20px;
-	text-align: left;
-	border-bottom: solid #dddddd;
+
+.portfolio_section{
+  margin:20px;
+  border-bottom: solid #cccccc;
   border-width: 3px;
-  margin-left: 20px;
-  margin-right: 20px;
+  padding:20px;
+  padding-left:0;
+  text-align: left;
+  font-size: 2em;
   color:#4aaaa5;
 }
-.image{
-	margin:20px;
-	float:left;
+
+.hangman{
+  margin-bottom:auto;
+  float:left;
 }
-.paragraph{
-	margin:20px;
-	font-size:1.5em;
-	color:#777777;
+
+h1{
+  background-color:#4aaaa5; 
+  width:300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
+.rpg{
+
+}
+h2{
+  background-color:#4aaaa5; 
+  width:300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+
+}
+
+.trivia{
+  float:left;
+
+}
+h3{
+  background-color:#4aaaa5;
+  width:300px;
+  margin-top: 5px;
+  margin-bottom: 5px; 
+}
+
+.rutgers{
+
+}
+h4{
+  background-color:#4aaaa5; 
+  width:300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+
+}
+
+.rockpaperscissors{
+  float:left;
+
+}
+
+
+h5{
+  background-color:#4aaaa5; 
+  width:300px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 aside{
   border: solid #dddddd;
+  border-width: 1px;
   color:green;
   float:right;
   background-color: white;
   width:270px;
   height:200px;
   margin-right: 300px;
-  margin-top:40px;
+  margin-top:30px;
   
 
 }
@@ -123,13 +179,19 @@ aside{
  	margin:20px;
  }
 
+ .portfolioimages{
+  margin:20px;
+ }
+
 .clear{
   position:absolute;
-  bottom: 0px;
-  width:94.8%;
+  bottom: 0;
+  left:0;
+  right:0;
+  width:96%;
   clear:both;
   background-color: #666666;
-  padding:40px;
+  padding:30px;
   border-top:solid #52c7a0;
   border-width: 8px;
   font-size: 1em;
